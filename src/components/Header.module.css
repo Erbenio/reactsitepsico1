@@ -1,0 +1,16 @@
+.header {
+    background-color: var(--azul-principal);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+    color: white;
+}
+
+.header p {
+    color: rgb(234, 238, 240);
+    font-size: 18px;
+}

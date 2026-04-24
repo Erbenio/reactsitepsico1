@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid var(--azul-claro);
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1 1 250px;
+    text-align: center;
+    background-color: var(--azul-claro);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.icon {
+    font-size: 40px;
+    color: var(--azul-principal);
+    margin-bottom: 10px;
+}

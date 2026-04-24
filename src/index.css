@@ -1,0 +1,46 @@
+:root {
+  --azul-principal: #009699;
+  --azul-claro: #bddfde;
+  --laranja-suave: #CC4400;
+  --cinza-fundo: #F9FAFB;
+  --cinza-texto: #6C757D;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cinza-fundo);
+    color: #333;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Seções */
+section {
+    margin-bottom: 30px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: var(--azul-principal);
+}
+
+/* Texto */
+p {
+    color: var(--cinza-texto);
+}
+
+.banner {
+  background-color: var(--azul-claro);
+  padding: 40px 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #007A87;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+

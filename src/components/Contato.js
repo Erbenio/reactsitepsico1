@@ -12,7 +12,7 @@ function Contato() {
     }
 
     return (
-        <section>
+        <section id='contato'>
             <h2>Contato</h2>
 
             <form onSubmit={enviar} className={styles.form}>

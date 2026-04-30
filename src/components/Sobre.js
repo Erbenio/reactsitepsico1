@@ -2,7 +2,7 @@ import styles from './Sobre.module.css';
 
 function Sobre() {
     return (
-        <section className="container">
+        <section id='sobre' className="container">
             <h2>Sobre</h2>
             <p>
                 Atuo com Terapia Cognitivo-Comportamental (TCC),

@@ -14,3 +14,13 @@
     color: rgb(234, 238, 240);
     font-size: 18px;
 }
+
+.header navbar {
+    margin-top: 10px;
+}
+
+.header navbar a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}

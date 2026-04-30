@@ -1,0 +1,20 @@
+
+
+h1, h2 {
+    color: var(--azul-principal);
+    text-align: center;
+}
+
+
+p {
+    color: var(--cinza-texto);
+    text-align: center;
+}
+
+
+.imagem {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 50%;
+}

@@ -7,7 +7,14 @@ function Header() {
     return (
         <div className={style.header}>
             <h1>Psicólogo {nome}</h1>
-            <p>Abordagem: Terapia Cognitivo-Comportamental</p>
+
+            <navbar className={style.navbar}>
+                <a href="">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </navbar>
+
         </div>
     )
 }

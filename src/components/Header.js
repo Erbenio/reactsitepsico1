@@ -9,7 +9,7 @@ function Header() {
             <h1>Psicólogo {nome}</h1>
 
             <navbar className={style.navbar}>
-                <a href="#">Início</a>
+                <button>Início</button>
                 <a href="#servicos">Serviços</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#contato">Contato</a>

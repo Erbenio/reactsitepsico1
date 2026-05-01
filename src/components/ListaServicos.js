@@ -1,8 +1,6 @@
 import CardServico from './CardServico';
 import ansiedade from '../assets/ansiedade.png';
-import depressao from '../assets/depressao.png';
-import autoestima from '../assets/autoestima.png';
-import relacionamentos from '../assets/relacionamentos.png';
+
 
 function ListaServicos() {
 

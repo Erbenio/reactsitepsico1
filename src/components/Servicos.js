@@ -60,7 +60,7 @@ function Servicos() {
     ];
 
     return (
-        <section id="Servicos">
+        <section id="servicos">
             <h2>Serviços</h2>
 
             <div className={styles.grid}>
@@ -81,10 +81,13 @@ function Servicos() {
                 <img src={lista2[0].imagem} alt={lista2[0].nome} />
 
                 <div className={styles.textoDestaque}>
-                    <h3>{lista2[0].nome}</h3>
-                    <p>{lista2[0].descricao}</p>
+                    
 
-                    <button className="btn-primary">
+                    <button className="btn-primary"
+                        onClick={() => {
+                            document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" });
+                        }}
+                    >
                         Agendar
                     </button>
                 </div>

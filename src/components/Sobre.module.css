@@ -7,8 +7,38 @@
 }
 
 .imagem {
-    display: block;
-    margin: 20px auto;
-    width: 200px;
-    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sobre {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.sobre h2 {
+  color: #0f8b8d;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.grid p {
+  color: #555;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }

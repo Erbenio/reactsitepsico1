@@ -11,7 +11,12 @@ function CardServico({ nome, imagem, descricao }) {
 
             <p>{descricao}</p>
 
-            <button className="btn-primary">
+            <button className="btn-primary"
+                onClick={() => {
+                            document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" });
+                        }}
+            
+            >
                 Agendar
             </button>
 

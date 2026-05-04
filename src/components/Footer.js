@@ -3,8 +3,16 @@ import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 function Footer() {
     return (
         <footer>
-            <p>Psicólogo Francisco Erbenio Vasconcelos - 2026</p>
-            <p><FaInstagram /> Erbeniopsi | <FaLinkedinIn />  Erbenio </p>
+            <p>
+                <a href="https://instagram.com/erbeniopsi" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram /> Erbeniopsi
+                </a>
+                {" | "}
+                <a href="https://linkedin.com/in/erbenio" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn /> Erbenio
+                </a>
+            </p>
+
         </footer>
     )
 }

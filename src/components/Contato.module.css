@@ -1,25 +1,40 @@
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto; /* centraliza o form */
 }
 
 input {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  display: block;
+  margin: 10px auto 0;
 }
 
 button {
-    padding: 10px;
-    background-color: var(--laranja-suave);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 10px;
+  background-color: var(--laranja-suave);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+
 }
 
 button:hover {
-    opacity: 0.9;
+  opacity: 0.9;
+}
+
+.form input,
+.form select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
 }

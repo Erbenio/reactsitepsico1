@@ -56,13 +56,9 @@ O projeto utiliza uma paleta de cores suaves inspiradas em interfaces voltadas Ã
 :root {
 
   --azul-principal: #009699;
-  
   --azul-claro: #bddfde;
-  
   --laranja-suave: #CC4400;
-  
   --cinza-fundo: #F9FAFB;
-  
 }
 
 ðŸ“± Responsividade

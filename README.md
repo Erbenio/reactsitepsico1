@@ -119,7 +119,7 @@ src/
   <li>Informações sobre TCC</li>
 </ul>
 
-<h3>✅ Contato</h3>
+<h3>Contato</h3>
 
 <ul>
   <li>Formulário simples</li>

@@ -1,43 +1,144 @@
-# Getting Started with Create React App
+Sobre o Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto consiste em um website institucional desenvolvido em React para apresentação de serviços psicológicos com foco em Terapia Cognitivo-Comportamental (TCC).
 
-## Available Scripts
+O objetivo do sistema é simular um ambiente profissional de divulgação de serviços psicológicos, aplicando conceitos fundamentais de Desenvolvimento Web III utilizando React, componentização, props, listas, eventos, renderização dinâmica e estilização modular.
 
-In the project directory, you can run:
+O projeto foi desenvolvido com fins acadêmicos, aplicando exclusivamente os conteúdos estudados durante a disciplina.
 
-### `npm start`
+Objetivos do Projeto
+Desenvolver uma aplicação React baseada em componentes reutilizáveis
+Aplicar conceitos de JSX e Props
+Trabalhar renderização dinâmica com map
+Utilizar CSS Modules para estilização isolada
+Implementar organização de layout responsivo
+Simular um website moderno de apresentação profissional
+🛠️ Tecnologias Utilizadas
+React
+JavaScript
+JSX
+CSS Modules
+React Icons
+HTML5
+CSS3
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Estrutura do Projeto
+src/
+│
+├── assets/
+│   ├── ansiedade.png
+│   ├── depressao.png
+│   └── ...
+│
+├── components/
+│   ├── Header.js
+│   ├── Banner.js
+│   ├── Sobre.js
+│   ├── Servicos.js
+│   ├── CardServico.js
+│   ├── Contato.js
+│   ├── Footer.js
+│   ├── Header.module.css
+│   └── Servicos.module.css
+│
+├── App.js
+├── index.css
+└── index.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Funcionalidades
+✅ Header
+Nome profissional
+Navegação com links
+Estilização personalizada
+✅ Banner
+Chamada principal do website
+Destaque visual inicial
+✅ Serviços
+Cards reutilizáveis
+Imagens ilustrativas
+Descrições dos atendimentos
+Botão de ação (“Agendar”)
+✅ Sobre
+Apresentação profissional
+Informações sobre abordagem TCC
+✅ Contato
+Formulário simples
+Interação com React Hooks (useState)
+✅ Footer
+Informações acadêmicas
+Redes sociais fictícias
 
-### `npm test`
+🎨 Identidade Visual
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O projeto utiliza uma paleta de cores suaves inspiradas em interfaces voltadas à área da psicologia e saúde emocional.
 
-### `npm run build`
+:root {
+  --azul-principal: #009699;
+  --azul-claro: #bddfde;
+  --laranja-suave: #CC4400;
+  --cinza-fundo: #F9FAFB;
+}
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📱 Responsividade
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+O sistema foi desenvolvido com layout responsivo utilizando:
+CSS Grid
+Media Queries
+Organização adaptável para dispositivos móveis
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 Como Executar o Projeto
+1️⃣ Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+2️⃣ Acesse a pasta do projeto
+cd nome-do-projeto
+3️⃣ Instale as dependências
+npm install
+4️⃣ Execute o projeto
+npm start
 
-### `npm run eject`
+📦 Dependências Utilizadas
+React Icons
+npm install react-icons
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧠 Conceitos Aplicados
+Componentização
+Props
+Renderização de listas (map)
+CSS Modules
+React Hooks (useState)
+Estrutura SPA
+Responsividade
+Reutilização de componentes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📸 Layout do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+O projeto apresenta:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Layout moderno
+Cards de serviços
+Seção de destaque
+Interface limpa e responsiva
+Design inspirado em sites profissionais da área da saúde
+
+📚 Finalidade Acadêmica
+
+Projeto desenvolvido para fins de aprendizagem na disciplina de Desenvolvimento Web III, aplicando conceitos fundamentais do ecossistema React.
+
+👨‍💻 Autor
+
+Francisco Erbenio Vasconcelos
+
+GitHub: @seuusuario
+LinkedIn: linkedin.com/in/seuperfil
+Email: seuemail@email.com
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
+
+⭐ Considerações Finais
+
+Este projeto representa a aplicação prática dos conceitos estudados em React, focando na construção de interfaces reutilizáveis, organização de componentes e desenvolvimento de layouts modernos voltados à experiência do usuário.
 
 ## Learn More
 

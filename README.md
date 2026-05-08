@@ -6,7 +6,7 @@ O objetivo do sistema é simular um ambiente profissional de divulgação de ser
 
 O projeto foi desenvolvido com fins acadêmicos, aplicando exclusivamente os conteúdos estudados durante a disciplina.
 
-Objetivos do Projeto
+Objetivos do Projeto: 
 Desenvolver uma aplicação React baseada em componentes reutilizáveis
 Aplicar conceitos de JSX e Props
 Trabalhar renderização dinâmica com map
@@ -54,10 +54,15 @@ Redes sociais fictícias
 O projeto utiliza uma paleta de cores suaves inspiradas em interfaces voltadas à área da psicologia e saúde emocional.
 
 :root {
+
   --azul-principal: #009699;
+  
   --azul-claro: #bddfde;
+  
   --laranja-suave: #CC4400;
+  
   --cinza-fundo: #F9FAFB;
+  
 }
 
 📱 Responsividade

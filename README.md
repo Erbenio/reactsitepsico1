@@ -23,27 +23,8 @@ HTML5
 CSS3
 
 Estrutura do Projeto
-src/
-│
-├── assets/
-│   ├── ansiedade.png
-│   ├── depressao.png
-│   └── ...
-│
-├── components/
-│   ├── Header.js
-│   ├── Banner.js
-│   ├── Sobre.js
-│   ├── Servicos.js
-│   ├── CardServico.js
-│   ├── Contato.js
-│   ├── Footer.js
-│   ├── Header.module.css
-│   └── Servicos.module.css
-│
-├── App.js
-├── index.css
-└── index.js
+<img width="452" height="535" alt="image" src="https://github.com/user-attachments/assets/eb3ba7db-0136-4267-a926-e8b515794e7c" />
+
 
 Funcionalidades
 ✅ Header
